@@ -1,0 +1,89 @@
+.header {
+    height: 145px;
+    padding: 0 100px 0 100px;
+}
+.imagenLogo {
+    width: 40px;
+    margin-right: 50px;
+}
+.imgLogo {
+    padding: 20px 20px 20px 20px;
+    width: 60px;
+    height: 50px;
+}
+.upper-nav {
+    display: flex;
+    align-items: center;
+}
+.misPedidos {
+    width: auto;
+    height: auto;
+    margin: 0 20px 0 5px;
+}
+.carrito {
+    display: flex;
+    margin: 0 10px 0 10px;
+}
+.ingresa {
+    margin: 10px 0 10px;
+    line-height: 2.5px;
+    align-content: center;
+    justify-content: center;
+}
+.containerIngresa {
+    justify-content: center;
+    align-items: center;
+}
+.carritoimg {
+    width: 40px;
+    height: 40px;
+}
+
+.header-top {
+    width: 100%;
+    height: 95px;
+    display: flex;
+}
+.search {
+    border: 0px;
+    padding: 20px;
+    width: 660px;
+    height: 10px;
+    outline: none;
+}
+.fieldset {
+    flex-grow: 1;
+    border: 2px solid black;
+    position: relative;
+    height: fit-content;
+    height: 50px;
+    width: 700px;
+    margin: 20px 40px 0 60px;
+}
+.submit {
+    position: absolute;
+    padding: 0px;
+    width: 45px;
+    background-color: #333;
+    border: none;
+    right: 2px;
+    top: 2px;
+    height: 45px;
+}
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerMenu {
+    width: 30px;
+    margin-right: 120px;
+}
+.logos {
+    width: auto;
+    height: 30px;
+}
+.containerNavItem {
+    display: flex;
+    width: 100px;
+}

@@ -1,0 +1,30 @@
+.wallContainer {
+    display: grid;
+    height: 500px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "hr hr sqr ver"
+        "sqr2 hr2 hr2 ver";
+}
+
+.hr {
+    grid-area: hr;
+}
+
+.sqr {
+    grid-area: sqr;
+}
+
+.ver {
+    grid-area: ver;
+}
+
+.sqr2 {
+    grid-area: sqr2;
+}
+.hr2 {
+    grid-area: hr2;
+}

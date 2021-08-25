@@ -1,0 +1,11 @@
+.cardsContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+.carouselHeader {
+    font-weight: bold;
+
+    padding: 20px;
+    text-align: center;
+}

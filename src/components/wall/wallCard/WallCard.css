@@ -1,0 +1,28 @@
+.wallCardContainer {
+    margin: 5px;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background: url("https://assets-built.s3.amazonaws.com/placeholder.png");
+}
+.wallCardWrapper {
+    display: flex;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wallCardTitle {
+    color: white;
+    font-weight: bold;
+}
+.button {
+    width: 300px !important;
+}

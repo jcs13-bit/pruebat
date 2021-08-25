@@ -1,0 +1,25 @@
+.sliderCardImage {
+    width: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.selected {
+    color: #016ee8;
+    font-weight: bold;
+}
+.sliderCardTitle {
+    color: #434343;
+}
+
+.sliderCardContainer:hover .sliderCardTitle {
+    color: #5d9adb;
+    font-weight: bold;
+    transition: ease 0.2s;
+}
+.sliderCardContainer:hover .sliderCardImage {
+    opacity: 2;
+}
+
+.sliderCardContainer {
+    padding: 7.5px;
+}
